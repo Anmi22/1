@@ -1,0 +1,50 @@
+html {background-color: #E59866;}
+body {
+  width: 600px;
+  margin: 7px 600px ;
+  background-color: #EAFAF1;
+  padding: 20px 20px 20px;
+  border: 5px solid #145A32;
+}
+p {
+  color: #0D6F29;
+  width: 560px;
+  height: auto;
+  font-family: Georgia, serif;
+}
+ul {
+  width: 350px;
+  font-family: Georgia, serif;
+  background-color: #ABEBC6;
+}
+ul,ol,h1,h2 {
+  color: #0D6F29;
+  font-family: Georgia, serif;
+}
+h1 { text-shadow: 3px 3px 1px #ABB2B9; text-align: center;}
+a { color: #F39C12;text-decoration:none;
+font-family: Georgia, serif;
+}
+a:hover {font-size: 20px; color: #D35400; text-decoration: underline;font-family: Georgia, serif;}
+img {width: 560px; height: 350px;}
+.gradient  {  text-decoration: none;
+  display: inline-block;
+  color: white;
+
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #2D8321 0%, #34C924 51%, #123524 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+  width: 300px;
+  height: 30px;}
+
+  .gradient:hover {
+  background-position: right center;
+  width: 300px;
+  height: 30px;
+}
